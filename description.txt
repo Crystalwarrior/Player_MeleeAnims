@@ -1,0 +1,3 @@
+Title: Melee Anims
+Author: Jack Noir
+this is the playertype which has COOL MELEE ANIMS!!

@@ -1,0 +1,1000 @@
+smallest_size = 0.0
+smallest_detail_level = 0
+radius = 3.2797801563065243
+radius_tube = 1.0954011987314984
+center = <Vector (-0.0000, 0.2214, 1.3750)>
+bounds = (<Vector (-2.0167, -2.2786, -1.0000)>, <Vector (2.0167, 2.7214, 3.7500)>)
+Ground frames: 0
+Triggers: 0
+Sequence node rotations: 0
+Sequence node translations: 0
+Sequence node uniform scales: 0
+Sequence node aligned scales: 0
+Sequence node arbitrary scales: 0
+Detail levels (2):
+  LOD 0 detail100 (size 100)
+    subshape = 0
+    objectDetail = 0
+    polyCount = 0
+  LOD 1 detail32 (size 32)
+    subshape = 0
+    objectDetail = 1
+    polyCount = 0
+Subshapes (1):
+  Subshape 0
+    nodes = 0 -> main, 1 -> start, 2 -> Hip, 3 -> Torso, 4 -> RightArm, 5 -> RightHand, 6 -> Mount0, 7 -> Box01, 8 -> RHand100box, 9 -> RHook100, 10 -> Rhand100, 11 -> Rarm100box, 12 -> RarmSlim100box, 13 -> Rarm100, 14 -> RarmSlim100, 15 -> LeftArm, 16 -> LeftHand, 17 -> Mount1, 18 -> LHand100box, 19 -> LHook100, 20 -> Lhand100, 21 -> Larm100box, 22 -> LarmSlim100box, 23 -> Larm100, 24 -> LarmSlim100, 25 -> Head, 26 -> Mount5, 27 -> Mount6, 28 -> Cam, 29 -> HeadSkin100, 30 -> PointyHelmet100, 31 -> Visor100, 32 -> Helmet100, 33 -> bicorn100, 34 -> scoutHat100, 35 -> FlareHelmet100, 36 -> copHat100, 37 -> knitHat100, 38 -> triPlume100, 39 -> plume100, 40 -> septPlume100, 41 -> chest100, 42 -> tank100, 43 -> Mount2, 44 -> pack100, 45 -> armor100, 46 -> quiver100, 47 -> cape100, 48 -> femChest100, 49 -> Bucket100, 50 -> epaulets100, 51 -> epauletsRankB100, 52 -> epauletsRankC100, 53 -> epauletsRankD100, 54 -> epauletsRankA100, 55 -> epauletsold, 56 -> ShoulderPads100, 57 -> RightLeg, 58 -> RFoot, 59 -> Mount3, 60 -> Rshoe100box, 61 -> RPeg100box, 62 -> Rski100, 63 -> RShoe100pants, 64 -> RShoe100, 65 -> Rpeg100, 66 -> LeftLeg, 67 -> Mount4, 68 -> LFoot, 69 -> Lshoe100box, 70 -> LPeg100box, 71 -> Lski100, 72 -> LShoe100pants, 73 -> LShoe100, 74 -> Lpeg100, 75 -> pants100box, 76 -> skirtHip100, 77 -> skirtTrimLeft100, 78 -> skirtTrimRight100, 79 -> Mount7, 80 -> pants100, 81 -> Eye
+    objects = 0 -> pants, 1 -> skirtHip, 2 -> skirtTrimRight, 3 -> skirtTrimLeft, 4 -> Lpeg, 5 -> LShoe, 6 -> LShoe_blood, 7 -> Lski, 8 -> Rpeg, 9 -> RShoe, 10 -> RShoe_blood, 11 -> Rski, 12 -> ShoulderPads, 13 -> epauletsRankA, 14 -> epauletsRankD, 15 -> epauletsRankC, 16 -> epauletsRankB, 17 -> epaulets, 18 -> Bucket, 19 -> femChest, 20 -> femChest_blood_back, 21 -> femChest_blood_front, 22 -> cape, 23 -> quiver, 24 -> armor, 25 -> pack, 26 -> tank, 27 -> chest, 28 -> chest_blood_back, 29 -> chest_blood_front, 30 -> septPlume, 31 -> plume, 32 -> triPlume, 33 -> knitHat, 34 -> copHat, 35 -> FlareHelmet, 36 -> scoutHat, 37 -> bicorn, 38 -> Helmet, 39 -> Visor, 40 -> PointyHelmet, 41 -> HeadSkin, 42 -> LarmSlim, 43 -> Larm, 44 -> Lhand, 45 -> Lhand_blood, 46 -> LHook, 47 -> RarmSlim, 48 -> Rarm, 49 -> Rhand, 50 -> Rhand_blood, 51 -> RHook
+Nodes (82):
+  0 main
+    translation = <Vector (0.0000, -0.2486, 0.0000)>
+    rotation = <Quaternion (w=0.7071, x=0.0000, y=0.0000, z=0.7071)>
+  1 start  ->  0 main
+    translation = <Vector (0.0000, 0.0000, 0.0000)>
+    rotation = <Quaternion (w=0.7071, x=0.0000, y=0.0000, z=0.7071)>
+  2 Hip  ->  1 start
+    translation = <Vector (-0.0000, -0.2488, 0.6895)>
+    rotation = <Quaternion (w=0.7071, x=0.0000, y=0.0000, z=-0.7071)>
+  3 Torso  ->  2 Hip
+    translation = <Vector (0.0142, 0.0000, 0.6367)>
+    rotation = <Quaternion (w=1.0000, x=0.0000, y=0.0000, z=0.0000)>
+  4 RightArm  ->  3 Torso
+    translation = <Vector (-0.0065, -0.3880, 0.3149)>
+    rotation = <Quaternion (w=0.9954, x=-0.0958, y=0.0000, z=0.0000)>
+  5 RightHand  ->  4 RightArm
+    translation = <Vector (0.1980, -0.1147, -0.5367)>
+    rotation = <Quaternion (w=0.6457, x=-0.3015, y=0.2796, z=-0.6434)>
+  6 Mount0  ->  5 RightHand
+    translation = <Vector (0.0029, 0.2343, 0.0068)>
+    rotation = <Quaternion (w=0.9978, x=-0.0654, y=0.0000, z=-0.0087)>
+  7 Box01  ->  6 Mount0
+    translation = <Vector (-1.3732, -0.2664, -0.3158)>
+    rotation = <Quaternion (w=0.9731, x=0.0000, y=0.1287, z=0.1913)>
+  8 RHand100box  ->  5 RightHand
+    translation = <Vector (-0.0041, 0.1922, -0.1213)>
+    rotation = <Quaternion (w=0.0000, x=0.0000, y=0.0683, z=0.9977)>
+  9 RHook100  ->  5 RightHand
+    translation = <Vector (0.1563, 0.0297, 0.0332)>
+    rotation = <Quaternion (w=0.6606, x=-0.7507, y=0.0000, z=-0.0000)>
+  10 Rhand100  ->  5 RightHand
+    translation = <Vector (-0.0128, 0.2366, 0.0521)>
+    rotation = <Quaternion (w=0.5018, x=0.4981, y=0.5274, z=0.4710)>
+  11 Rarm100box  ->  4 RightArm
+    translation = <Vector (-0.0076, 0.0000, 0.0000)>
+    rotation = <Quaternion (w=0.9774, x=-0.0000, y=-0.2114, z=0.0000)>
+  12 RarmSlim100box  ->  4 RightArm
+    translation = <Vector (-0.0076, -0.0000, -0.0000)>
+    rotation = <Quaternion (w=0.2114, x=0.0000, y=0.9774, z=-0.0000)>
+  13 Rarm100  ->  4 RightArm
+    translation = <Vector (-0.0076, 0.0000, 0.0000)>
+    rotation = <Quaternion (w=0.9774, x=-0.0000, y=-0.2114, z=0.0000)>
+  14 RarmSlim100  ->  4 RightArm
+    translation = <Vector (-0.0076, -0.0000, -0.0000)>
+    rotation = <Quaternion (w=0.9774, x=-0.0000, y=-0.2114, z=0.0000)>
+  15 LeftArm  ->  3 Torso
+    translation = <Vector (-0.0065, 0.3835, 0.3149)>
+    rotation = <Quaternion (w=0.0000, x=0.0000, y=0.9962, z=0.0871)>
+  16 LeftHand  ->  15 LeftArm
+    translation = <Vector (-0.1980, 0.1285, 0.5354)>
+    rotation = <Quaternion (w=0.6430, x=-0.3071, y=0.2740, z=-0.6458)>
+  17 Mount1  ->  16 LeftHand
+    translation = <Vector (-0.0034, -0.2340, -0.0068)>
+    rotation = <Quaternion (w=0.0665, x=0.9977, y=-0.0117, z=-0.0040)>
+  18 LHand100box  ->  16 LeftHand
+    translation = <Vector (0.0042, -0.1921, 0.1213)>
+    rotation = <Quaternion (w=0.0125, x=-0.0095, y=-0.9973, z=0.0718)>
+  19 LHook100  ->  16 LeftHand
+    translation = <Vector (-0.1476, -0.0277, -0.0373)>
+    rotation = <Quaternion (w=0.0156, x=0.0021, y=-0.6544, z=0.7560)>
+  20 Lhand100  ->  16 LeftHand
+    translation = <Vector (0.0123, -0.2367, -0.0520)>
+    rotation = <Quaternion (w=0.5018, x=0.4981, y=0.5274, z=0.4710)>
+  21 Larm100box  ->  15 LeftArm
+    translation = <Vector (0.0076, 0.0044, 0.0008)>
+    rotation = <Quaternion (w=0.2113, x=-0.0018, y=0.9774, z=-0.0085)>
+  22 LarmSlim100box  ->  15 LeftArm
+    translation = <Vector (0.0076, 0.0044, 0.0008)>
+    rotation = <Quaternion (w=0.2113, x=-0.0018, y=0.9774, z=-0.0085)>
+  23 Larm100  ->  15 LeftArm
+    translation = <Vector (0.0076, 0.0044, 0.0008)>
+    rotation = <Quaternion (w=0.9774, x=-0.0085, y=-0.2113, z=0.0018)>
+  24 LarmSlim100  ->  15 LeftArm
+    translation = <Vector (0.0076, 0.0044, 0.0008)>
+    rotation = <Quaternion (w=0.9774, x=-0.0085, y=-0.2113, z=0.0018)>
+  25 Head  ->  3 Torso
+    translation = <Vector (-0.0000, 0.0000, 0.5110)>
+    rotation = <Quaternion (w=1.0000, x=0.0000, y=0.0000, z=0.0000)>
+  26 Mount5  ->  25 Head
+    translation = <Vector (-0.0104, -0.0008, 0.3801)>
+    rotation = <Quaternion (w=0.7071, x=0.0000, y=0.0000, z=-0.7071)>
+  27 Mount6  ->  25 Head
+    translation = <Vector (-0.0506, -0.0000, 0.4146)>
+    rotation = <Quaternion (w=0.7071, x=0.0000, y=0.0000, z=-0.7071)>
+  28 Cam  ->  25 Head
+    translation = <Vector (-0.1337, 0.0939, 0.3801)>
+    rotation = <Quaternion (w=1.0000, x=0.0019, y=-0.0011, z=-0.0018)>
+  29 HeadSkin100  ->  25 Head
+    translation = <Vector (-0.0238, 0.0042, 0.0703)>
+    rotation = <Quaternion (w=1.0000, x=0.0000, y=0.0000, z=0.0000)>
+  30 PointyHelmet100  ->  25 Head
+    translation = <Vector (-0.1652, 0.0000, 0.0403)>
+    rotation = <Quaternion (w=1.0000, x=0.0000, y=0.0000, z=0.0000)>
+  31 Visor100  ->  25 Head
+    translation = <Vector (-0.2630, 0.0000, 0.3315)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=0.5000, z=0.5000)>
+  32 Helmet100  ->  25 Head
+    translation = <Vector (-0.4178, 0.0000, 0.4066)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=0.5000, z=0.5000)>
+  33 bicorn100  ->  25 Head
+    translation = <Vector (-0.0418, 0.0033, 0.7810)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=0.5000, z=0.5000)>
+  34 scoutHat100  ->  25 Head
+    translation = <Vector (0.3135, 0.0000, 0.4363)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=0.5000, z=0.5000)>
+  35 FlareHelmet100  ->  25 Head
+    translation = <Vector (-0.1652, 0.0000, 0.0403)>
+    rotation = <Quaternion (w=1.0000, x=0.0000, y=0.0000, z=0.0000)>
+  36 copHat100  ->  25 Head
+    translation = <Vector (0.0556, 0.0000, 0.7029)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=0.5000, z=0.5000)>
+  37 knitHat100  ->  25 Head
+    translation = <Vector (0.3135, 0.0000, 0.4787)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=0.5000, z=0.5000)>
+  38 triPlume100  ->  25 Head
+    translation = <Vector (0.1682, 0.0000, 0.6283)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=0.5000, z=0.5000)>
+  39 plume100  ->  25 Head
+    translation = <Vector (0.2340, 0.0000, 0.6299)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=0.5000, z=0.5000)>
+  40 septPlume100  ->  25 Head
+    translation = <Vector (0.2579, 0.0000, 0.6423)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=0.5000, z=0.5000)>
+  41 chest100  ->  3 Torso
+    translation = <Vector (0.2301, 0.0000, 0.1548)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=0.5000, z=0.5000)>
+  42 tank100  ->  3 Torso
+    translation = <Vector (-0.0337, 0.0000, 0.3272)>
+    rotation = <Quaternion (w=1.0000, x=0.0000, y=0.0000, z=0.0000)>
+  43 Mount2  ->  3 Torso
+    translation = <Vector (-0.0474, -0.0008, 0.5029)>
+    rotation = <Quaternion (w=0.7071, x=0.0000, y=0.0000, z=-0.7071)>
+  44 pack100  ->  3 Torso
+    translation = <Vector (-0.1692, 0.0000, 0.4644)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=-0.5000, z=-0.5000)>
+  45 armor100  ->  3 Torso
+    translation = <Vector (-0.0109, 0.0000, 0.4587)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=-0.5000, z=-0.5000)>
+  46 quiver100  ->  3 Torso
+    translation = <Vector (-0.1464, 0.0176, 0.3938)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=-0.5000, z=-0.5000)>
+  47 cape100  ->  3 Torso
+    translation = <Vector (-0.2442, 0.0000, 0.4579)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=-0.5000, z=-0.5000)>
+  48 femChest100  ->  3 Torso
+    translation = <Vector (0.2298, 0.0000, 0.1548)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=0.5000, z=0.5000)>
+  49 Bucket100  ->  3 Torso
+    translation = <Vector (-0.2141, 0.0000, 0.4457)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=-0.5000, z=-0.5000)>
+  50 epaulets100  ->  3 Torso
+    translation = <Vector (-0.0129, 0.0000, 0.4642)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=-0.5000, z=-0.5000)>
+  51 epauletsRankB100  ->  3 Torso
+    translation = <Vector (-0.0217, 0.0000, 0.4695)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=-0.5000, z=-0.5000)>
+  52 epauletsRankC100  ->  3 Torso
+    translation = <Vector (-0.0217, 0.0000, 0.4695)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=-0.5000, z=-0.5000)>
+  53 epauletsRankD100  ->  3 Torso
+    translation = <Vector (-0.0217, 0.0000, 0.4695)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=-0.5000, z=-0.5000)>
+  54 epauletsRankA100  ->  3 Torso
+    translation = <Vector (-0.0217, 0.0000, 0.4695)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=-0.5000, z=-0.5000)>
+  55 epauletsold  ->  3 Torso
+    translation = <Vector (-0.0129, 0.0000, 0.4642)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=-0.5000, z=-0.5000)>
+  56 ShoulderPads100  ->  3 Torso
+    translation = <Vector (-0.0109, 0.0000, 0.4587)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=-0.5000, z=-0.5000)>
+  57 RightLeg  ->  2 Hip
+    translation = <Vector (0.0237, 0.0220, 0.0703)>
+    rotation = <Quaternion (w=1.0000, x=0.0000, y=0.0000, z=0.0000)>
+  58 RFoot  ->  57 RightLeg
+    translation = <Vector (0.0075, -0.3150, -0.7550)>
+    rotation = <Quaternion (w=0.5000, x=-0.5000, y=0.5000, z=-0.5000)>
+  59 Mount3  ->  57 RightLeg
+    translation = <Vector (0.0075, -0.3150, -0.7550)>
+    rotation = <Quaternion (w=0.7071, x=0.0000, y=0.0000, z=-0.7071)>
+  60 Rshoe100box  ->  57 RightLeg
+    translation = <Vector (-0.4440, -0.4750, -0.3826)>
+    rotation = <Quaternion (w=0.0000, x=-0.0000, y=0.7071, z=-0.7071)>
+  61 RPeg100box  ->  57 RightLeg
+    translation = <Vector (-0.0000, -0.2711, -0.2891)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=0.5000, z=0.5000)>
+  62 Rski100  ->  57 RightLeg
+    translation = <Vector (0.0180, -0.3132, -0.6340)>
+    rotation = <Quaternion (w=0.7071, x=0.7071, y=0.0000, z=0.0000)>
+  63 RShoe100pants  ->  57 RightLeg
+    translation = <Vector (0.0263, -0.2915, -0.3227)>
+    rotation = <Quaternion (w=0.5000, x=-0.5000, y=-0.5000, z=0.5000)>
+  64 RShoe100  ->  57 RightLeg
+    translation = <Vector (0.0263, -0.3355, -0.3227)>
+    rotation = <Quaternion (w=0.5000, x=-0.5000, y=-0.5000, z=0.5000)>
+  65 Rpeg100  ->  57 RightLeg
+    translation = <Vector (-0.0224, -0.2920, -0.3542)>
+    rotation = <Quaternion (w=0.5000, x=-0.5000, y=0.5000, z=-0.5000)>
+  66 LeftLeg  ->  2 Hip
+    translation = <Vector (0.0237, -0.0220, 0.0703)>
+    rotation = <Quaternion (w=1.0000, x=0.0000, y=0.0000, z=0.0000)>
+  67 Mount4  ->  66 LeftLeg
+    translation = <Vector (0.0075, 0.3152, -0.7550)>
+    rotation = <Quaternion (w=0.7071, x=0.0000, y=0.0000, z=-0.7071)>
+  68 LFoot  ->  66 LeftLeg
+    translation = <Vector (0.0075, 0.3152, -0.7550)>
+    rotation = <Quaternion (w=0.4987, x=-0.5013, y=0.5013, z=-0.4987)>
+  69 Lshoe100box  ->  66 LeftLeg
+    translation = <Vector (-0.4440, 0.4750, -0.3826)>
+    rotation = <Quaternion (w=0.7071, x=0.7071, y=0.0000, z=0.0000)>
+  70 LPeg100box  ->  66 LeftLeg
+    translation = <Vector (-0.0000, 0.2710, -0.2891)>
+    rotation = <Quaternion (w=0.5000, x=-0.5000, y=-0.5000, z=0.5000)>
+  71 Lski100  ->  66 LeftLeg
+    translation = <Vector (0.0180, 0.3133, -0.6340)>
+    rotation = <Quaternion (w=0.7071, x=0.7071, y=0.0000, z=0.0000)>
+  72 LShoe100pants  ->  66 LeftLeg
+    translation = <Vector (0.0263, 0.2885, -0.3227)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=0.5000, z=0.5000)>
+  73 LShoe100  ->  66 LeftLeg
+    translation = <Vector (0.0263, 0.3360, -0.3227)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=0.5000, z=0.5000)>
+  74 Lpeg100  ->  66 LeftLeg
+    translation = <Vector (-0.0224, 0.2924, -0.3542)>
+    rotation = <Quaternion (w=0.5000, x=0.5000, y=-0.5000, z=-0.5000)>
+  75 pants100box  ->  2 Hip
+    translation = <Vector (0.0496, 0.0000, 0.0791)>
+    rotation = <Quaternion (w=0.7071, x=0.7071, y=0.0000, z=0.0000)>
+  76 skirtHip100  ->  2 Hip
+    translation = <Vector (-0.2260, 0.0000, 0.0256)>
+    rotation = <Quaternion (w=0.7071, x=0.0000, y=0.0000, z=-0.7071)>
+  77 skirtTrimLeft100  ->  76 skirtHip100
+    translation = <Vector (-0.0000, 0.0000, -0.4977)>
+    rotation = <Quaternion (w=0.7071, x=0.0000, y=0.0000, z=0.7071)>
+  78 skirtTrimRight100  ->  76 skirtHip100
+    translation = <Vector (-0.0000, 0.0000, -0.6977)>
+    rotation = <Quaternion (w=0.7071, x=0.0000, y=0.0000, z=0.7071)>
+  79 Mount7  ->  2 Hip
+    translation = <Vector (0.0038, -0.0008, -0.0039)>
+    rotation = <Quaternion (w=0.7071, x=0.0000, y=0.0000, z=-0.7071)>
+  80 pants100  ->  2 Hip
+    translation = <Vector (-0.0107, 0.0000, 0.1920)>
+    rotation = <Quaternion (w=0.7071, x=0.7071, y=0.0000, z=0.0000)>
+  81 Eye  ->  1 start
+    translation = <Vector (0.0022, -0.3898, 2.1565)>
+    rotation = <Quaternion (w=0.0000, x=0.0000, y=0.0000, z=1.0000)>
+Object states: 52
+Objects (52):
+  0 pants in 80 (pants100), meshes = 11
+  1 skirtHip in 76 (skirtHip100), meshes = 14
+  2 skirtTrimRight in 78 (skirtTrimRight100), meshes = 2
+  3 skirtTrimLeft in 77 (skirtTrimLeft100), meshes = 42
+  4 Lpeg in 74 (Lpeg100), meshes = 12
+  5 LShoe in 73 (LShoe100), meshes = 17
+  6 LShoe_blood in 73 (LShoe100), meshes = 46
+  7 Lski in 71 (Lski100), meshes = 50
+  8 Rpeg in 65 (Rpeg100), meshes = 8
+  9 RShoe in 64 (RShoe100), meshes = 52
+  10 RShoe_blood in 64 (RShoe100), meshes = 38, 39
+  11 Rski in 62 (Rski100), meshes = 34
+  12 ShoulderPads in 56 (ShoulderPads100), meshes = 6
+  13 epauletsRankA in 54 (epauletsRankA100), meshes = 43
+  14 epauletsRankD in 53 (epauletsRankD100), meshes = 37
+  15 epauletsRankC in 52 (epauletsRankC100), meshes = 36
+  16 epauletsRankB in 51 (epauletsRankB100), meshes = 24
+  17 epaulets in 50 (epaulets100), meshes = 16
+  18 Bucket in 49 (Bucket100), meshes = 49
+  19 femChest in 48 (femChest100), meshes = 9
+  20 femChest_blood_back in 48 (femChest100), meshes = 19
+  21 femChest_blood_front in 48 (femChest100), meshes = 32
+  22 cape in 47 (cape100), meshes = 10
+  23 quiver in 46 (quiver100), meshes = 29
+  24 armor in 45 (armor100), meshes = 25
+  25 pack in 44 (pack100), meshes = 0
+  26 tank in 42 (tank100), meshes = 44
+  27 chest in 41 (chest100), meshes = 35
+  28 chest_blood_back in 41 (chest100), meshes = 23
+  29 chest_blood_front in 41 (chest100), meshes = 28
+  30 septPlume in 40 (septPlume100), meshes = 4
+  31 plume in 39 (plume100), meshes = 30
+  32 triPlume in 38 (triPlume100), meshes = 26
+  33 knitHat in 37 (knitHat100), meshes = 18
+  34 copHat in 36 (copHat100), meshes = 27
+  35 FlareHelmet in 35 (FlareHelmet100), meshes = 3
+  36 scoutHat in 34 (scoutHat100), meshes = 22
+  37 bicorn in 33 (bicorn100), meshes = 45
+  38 Helmet in 32 (Helmet100), meshes = 20
+  39 Visor in 31 (Visor100), meshes = 48
+  40 PointyHelmet in 30 (PointyHelmet100), meshes = 21
+  41 HeadSkin in 29 (HeadSkin100), meshes = 31
+  42 LarmSlim in 24 (LarmSlim100), meshes = 5
+  43 Larm in 23 (Larm100), meshes = 47
+  44 Lhand in 20 (Lhand100), meshes = 41
+  45 Lhand_blood in 20 (Lhand100), meshes = 51
+  46 LHook in 19 (LHook100), meshes = 33
+  47 RarmSlim in 14 (RarmSlim100), meshes = 15
+  48 Rarm in 13 (Rarm100), meshes = 13
+  49 Rhand in 10 (Rhand100), meshes = 40
+  50 Rhand_blood in 10 (Rhand100), meshes = 1
+  51 RHook in 9 (RHook100), meshes = 7
+Materials (12):
+  0 brickSIDE (195 SWrap TWrap NeverEnvMap NoMipMap)
+    bumpMap = -1, reflectanceMap = -1, detailMap = -1
+    reflectance = 0.0, detailScale = 1.0
+  1 black (195 SWrap TWrap NeverEnvMap NoMipMap)
+    bumpMap = -1, reflectanceMap = -1, detailMap = -1
+    reflectance = 0.0, detailScale = 1.0
+  2 black50 (195 SWrap TWrap NeverEnvMap NoMipMap)
+    bumpMap = -1, reflectanceMap = -1, detailMap = -1
+    reflectance = 0.0, detailScale = 1.0
+  3 brickSIDE.002 (195 SWrap TWrap NeverEnvMap NoMipMap)
+    bumpMap = -1, reflectanceMap = -1, detailMap = -1
+    reflectance = 0.0, detailScale = 1.0
+  4 brickBOTTOMLOOP (195 SWrap TWrap NeverEnvMap NoMipMap)
+    bumpMap = -1, reflectanceMap = -1, detailMap = -1
+    reflectance = 0.0, detailScale = 1.0
+  5 brickBOTTOMEDGE (195 SWrap TWrap NeverEnvMap NoMipMap)
+    bumpMap = -1, reflectanceMap = -1, detailMap = -1
+    reflectance = 0.0, detailScale = 1.0
+  6 decal (134217923 SWrap TWrap NeverEnvMap NoMipMap IFLMaterial)
+    bumpMap = -1, reflectanceMap = -1, detailMap = -1
+    reflectance = 0.0, detailScale = 1.0
+  7 brickRAMP (195 SWrap TWrap NeverEnvMap NoMipMap)
+    bumpMap = -1, reflectanceMap = -1, detailMap = -1
+    reflectance = 0.0, detailScale = 1.0
+  8 black25 (195 SWrap TWrap NeverEnvMap NoMipMap)
+    bumpMap = -1, reflectanceMap = -1, detailMap = -1
+    reflectance = 0.0, detailScale = 1.0
+  9 megaPhoneRidge (195 SWrap TWrap NeverEnvMap NoMipMap)
+    bumpMap = -1, reflectanceMap = -1, detailMap = -1
+    reflectance = 0.0, detailScale = 1.0
+  10 face (134217923 SWrap TWrap NeverEnvMap NoMipMap IFLMaterial)
+    bumpMap = -1, reflectanceMap = -1, detailMap = -1
+    reflectance = 0.0, detailScale = 1.0
+  11 blank (199 SWrap TWrap Translucent NeverEnvMap NoMipMap)
+    bumpMap = -1, reflectanceMap = -1, detailMap = -1
+    reflectance = 0.0, detailScale = 1.0
+IFL materials (2):
+  IflMat decal.ifl
+    slot = 6 <MISSING>, time = 4
+    firstFrame = 4, numFrames = 8
+  IflMat face.ifl
+    slot = 10 <MISSING>, time = 2
+    firstFrame = 143132264, numFrames = 2
+Meshes (53):
+  Mesh 0 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (3):
+      0->329 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+      330->335 536870913 NoExplicitType->Triangles Indexed MaterialMask:1
+      336->455 536870914 NoExplicitType->Triangles Indexed MaterialMask:2
+    + Vertices (456): <omitted>
+    + Texture coords (456): <omitted>
+  Mesh 1 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->284 536870915 NoExplicitType->Triangles Indexed MaterialMask:3
+    + Vertices (285): <omitted>
+    + Texture coords (285): <omitted>
+  Mesh 2 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (3):
+      0->23 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+      24->29 536870916 NoExplicitType->Triangles Indexed MaterialMask:4
+      30->53 536870917 NoExplicitType->Triangles Indexed MaterialMask:5
+    + Vertices (54): <omitted>
+    + Texture coords (54): <omitted>
+  Mesh 3 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->149 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (150): <omitted>
+    + Texture coords (150): <omitted>
+  Mesh 4 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->335 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (336): <omitted>
+    + Texture coords (336): <omitted>
+  Mesh 5 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->71 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (72): <omitted>
+    + Texture coords (72): <omitted>
+  Mesh 6 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->167 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (168): <omitted>
+    + Texture coords (168): <omitted>
+  Mesh 7 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->161 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (162): <omitted>
+    + Texture coords (162): <omitted>
+  Mesh 8 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->179 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (180): <omitted>
+    + Texture coords (180): <omitted>
+  Mesh 9 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (2):
+      0->29 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+      30->101 536870918 NoExplicitType->Triangles Indexed MaterialMask:6
+    + Vertices (102): <omitted>
+    + Texture coords (102): <omitted>
+  Mesh 10 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->245 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (246): <omitted>
+    + Texture coords (246): <omitted>
+  Mesh 11 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->143 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (144): <omitted>
+    + Texture coords (144): <omitted>
+  Mesh 12 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->179 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (180): <omitted>
+    + Texture coords (180): <omitted>
+  Mesh 13 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->89 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (90): <omitted>
+    + Texture coords (90): <omitted>
+  Mesh 14 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (2):
+      0->41 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+      42->47 536870919 NoExplicitType->Triangles Indexed MaterialMask:7
+    + Vertices (48): <omitted>
+    + Texture coords (48): <omitted>
+  Mesh 15 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->71 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (72): <omitted>
+    + Texture coords (72): <omitted>
+  Mesh 16 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->371 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (372): <omitted>
+    + Texture coords (372): <omitted>
+  Mesh 17 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (3):
+      0->89 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+      90->107 536870914 NoExplicitType->Triangles Indexed MaterialMask:2
+      108->143 536870920 NoExplicitType->Triangles Indexed MaterialMask:8
+    + Vertices (144): <omitted>
+    + Texture coords (144): <omitted>
+  Mesh 18 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (2):
+      0->83 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+      84->107 536870921 NoExplicitType->Triangles Indexed MaterialMask:9
+    + Vertices (108): <omitted>
+    + Texture coords (108): <omitted>
+  Mesh 19 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->266 536870915 NoExplicitType->Triangles Indexed MaterialMask:3
+    + Vertices (267): <omitted>
+    + Texture coords (267): <omitted>
+  Mesh 20 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->83 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (84): <omitted>
+    + Texture coords (84): <omitted>
+  Mesh 21 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->149 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (150): <omitted>
+    + Texture coords (150): <omitted>
+  Mesh 22 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->107 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (108): <omitted>
+    + Texture coords (108): <omitted>
+  Mesh 23 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->173 536870915 NoExplicitType->Triangles Indexed MaterialMask:3
+    + Vertices (174): <omitted>
+    + Texture coords (174): <omitted>
+  Mesh 24 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (2):
+      0->215 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+      216->335 536870913 NoExplicitType->Triangles Indexed MaterialMask:1
+    + Vertices (336): <omitted>
+    + Texture coords (336): <omitted>
+  Mesh 25 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->365 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (366): <omitted>
+    + Texture coords (366): <omitted>
+  Mesh 26 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->119 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (120): <omitted>
+    + Texture coords (120): <omitted>
+  Mesh 27 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (2):
+      0->59 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+      60->113 536870913 NoExplicitType->Triangles Indexed MaterialMask:1
+    + Vertices (114): <omitted>
+    + Texture coords (114): <omitted>
+  Mesh 28 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->191 536870915 NoExplicitType->Triangles Indexed MaterialMask:3
+    + Vertices (192): <omitted>
+    + Texture coords (192): <omitted>
+  Mesh 29 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (2):
+      0->551 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+      552->617 536870919 NoExplicitType->Triangles Indexed MaterialMask:7
+    + Vertices (618): <omitted>
+    + Texture coords (618): <omitted>
+  Mesh 30 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->47 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (48): <omitted>
+    + Texture coords (48): <omitted>
+  Mesh 31 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (2):
+      0->53 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+      54->59 536870922 NoExplicitType->Triangles Indexed MaterialMask:10
+    + Vertices (60): <omitted>
+    + Texture coords (60): <omitted>
+  Mesh 32 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->203 536870915 NoExplicitType->Triangles Indexed MaterialMask:3
+    + Vertices (204): <omitted>
+    + Texture coords (204): <omitted>
+  Mesh 33 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->161 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (162): <omitted>
+    + Texture coords (162): <omitted>
+  Mesh 34 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->329 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (330): <omitted>
+    + Texture coords (330): <omitted>
+  Mesh 35 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (2):
+      0->29 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+      30->65 536870918 NoExplicitType->Triangles Indexed MaterialMask:6
+    + Vertices (66): <omitted>
+    + Texture coords (66): <omitted>
+  Mesh 36 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (2):
+      0->155 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+      156->275 536870913 NoExplicitType->Triangles Indexed MaterialMask:1
+    + Vertices (276): <omitted>
+    + Texture coords (276): <omitted>
+  Mesh 37 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (2):
+      0->95 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+      96->215 536870913 NoExplicitType->Triangles Indexed MaterialMask:1
+    + Vertices (216): <omitted>
+    + Texture coords (216): <omitted>
+  Mesh 38 - Null
+  Mesh 39 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->263 536870915 NoExplicitType->Triangles Indexed MaterialMask:3
+    + Vertices (264): <omitted>
+    + Texture coords (264): <omitted>
+  Mesh 40 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->215 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (216): <omitted>
+    + Texture coords (216): <omitted>
+  Mesh 41 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->215 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (216): <omitted>
+    + Texture coords (216): <omitted>
+  Mesh 42 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->23 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (24): <omitted>
+    + Texture coords (24): <omitted>
+  Mesh 43 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (2):
+      0->95 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+      96->215 536870913 NoExplicitType->Triangles Indexed MaterialMask:1
+    + Vertices (216): <omitted>
+    + Texture coords (216): <omitted>
+  Mesh 44 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->287 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (288): <omitted>
+    + Texture coords (288): <omitted>
+  Mesh 45 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->191 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (192): <omitted>
+    + Texture coords (192): <omitted>
+  Mesh 46 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->269 536870915 NoExplicitType->Triangles Indexed MaterialMask:3
+    + Vertices (270): <omitted>
+    + Texture coords (270): <omitted>
+  Mesh 47 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->89 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (90): <omitted>
+    + Texture coords (90): <omitted>
+  Mesh 48 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->35 536870923 NoExplicitType->Triangles Indexed MaterialMask:11
+    + Vertices (36): <omitted>
+    + Texture coords (36): <omitted>
+  Mesh 49 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->305 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (306): <omitted>
+    + Texture coords (306): <omitted>
+  Mesh 50 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->329 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+    + Vertices (330): <omitted>
+    + Texture coords (330): <omitted>
+  Mesh 51 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (1):
+      0->305 536870915 NoExplicitType->Triangles Indexed MaterialMask:3
+    + Vertices (306): <omitted>
+    + Texture coords (306): <omitted>
+  Mesh 52 - Standard
+    flags = 0
+    bounds = (<Vector (9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000, 9999999848243207300000000000000.0000)>, <Vector (-9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000, -9999999848243207300000000000000.0000)>)
+    center = <Vector (0.0000, 0.0000, 0.0000)>
+    radius = 0.0
+    + Primitives (3):
+      0->89 536870912 NoExplicitType->Triangles Indexed MaterialMask:0
+      90->107 536870914 NoExplicitType->Triangles Indexed MaterialMask:2
+      108->143 536870920 NoExplicitType->Triangles Indexed MaterialMask:8
+    + Vertices (144): <omitted>
+    + Texture coords (144): <omitted>
+Sequences (0):
+Names (138):
+  0 = main
+  1 = start
+  2 = Eye
+  3 = Hip
+  4 = LeftLeg
+  5 = LFoot
+  6 = Lpeg100
+  7 = LPeg100box
+  8 = LShoe100
+  9 = Lshoe100box
+  10 = LShoe100pants
+  11 = Lski100
+  12 = Mount4
+  13 = Mount7
+  14 = pants100
+  15 = pants100box
+  16 = RightLeg
+  17 = Mount3
+  18 = RFoot
+  19 = Rpeg100
+  20 = RPeg100box
+  21 = RShoe100
+  22 = Rshoe100box
+  23 = RShoe100pants
+  24 = Rski100
+  25 = skirtHip100
+  26 = skirtTrimLeft100
+  27 = skirtTrimRight100
+  28 = Torso
+  29 = armor100
+  30 = Bucket100
+  31 = cape100
+  32 = chest100
+  33 = epaulets100
+  34 = epauletsold
+  35 = epauletsRankA100
+  36 = epauletsRankB100
+  37 = epauletsRankC100
+  38 = epauletsRankD100
+  39 = femChest100
+  40 = Head
+  41 = bicorn100
+  42 = Cam
+  43 = copHat100
+  44 = FlareHelmet100
+  45 = HeadSkin100
+  46 = Helmet100
+  47 = knitHat100
+  48 = Mount5
+  49 = Mount6
+  50 = plume100
+  51 = PointyHelmet100
+  52 = scoutHat100
+  53 = septPlume100
+  54 = triPlume100
+  55 = Visor100
+  56 = LeftArm
+  57 = Larm100
+  58 = Larm100box
+  59 = LarmSlim100
+  60 = LarmSlim100box
+  61 = LeftHand
+  62 = Lhand100
+  63 = LHand100box
+  64 = LHook100
+  65 = Mount1
+  66 = Mount2
+  67 = pack100
+  68 = quiver100
+  69 = RightArm
+  70 = Rarm100
+  71 = Rarm100box
+  72 = RarmSlim100
+  73 = RarmSlim100box
+  74 = RightHand
+  75 = Mount0
+  76 = Box01
+  77 = Rhand100
+  78 = RHand100box
+  79 = RHook100
+  80 = ShoulderPads100
+  81 = tank100
+  82 = detail100
+  83 = pants
+  84 = skirtHip
+  85 = skirtTrimRight
+  86 = skirtTrimLeft
+  87 = Lpeg
+  88 = LShoe
+  89 = LShoe_blood
+  90 = Lski
+  91 = Rpeg
+  92 = RShoe
+  93 = detail32
+  94 = RShoe_blood
+  95 = Rski
+  96 = ShoulderPads
+  97 = epauletsRankA
+  98 = epauletsRankD
+  99 = epauletsRankC
+  100 = epauletsRankB
+  101 = epaulets
+  102 = Bucket
+  103 = femChest
+  104 = femChest_blood_back
+  105 = femChest_blood_front
+  106 = cape
+  107 = quiver
+  108 = armor
+  109 = pack
+  110 = tank
+  111 = chest
+  112 = chest_blood_back
+  113 = chest_blood_front
+  114 = septPlume
+  115 = plume
+  116 = triPlume
+  117 = knitHat
+  118 = copHat
+  119 = FlareHelmet
+  120 = scoutHat
+  121 = bicorn
+  122 = Helmet
+  123 = Visor
+  124 = PointyHelmet
+  125 = HeadSkin
+  126 = LarmSlim
+  127 = Larm
+  128 = Lhand
+  129 = Lhand_blood
+  130 = LHook
+  131 = RarmSlim
+  132 = Rarm
+  133 = Rhand
+  134 = Rhand_blood
+  135 = RHook
+  136 = decal.ifl
+  137 = face.ifl

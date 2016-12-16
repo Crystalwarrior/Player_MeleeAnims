@@ -1,0 +1,1 @@
+Put melee.dsq AND mmelee.dts into base/data/shapes/player folder or animations won't work!
