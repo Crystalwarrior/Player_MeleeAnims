@@ -1,1 +1,1 @@
-Put melee.dsq AND mmelee.dts into base/data/shapes/player folder or animations won't work!
+Put All .dsq AND .dts files into base/data/shapes/player folder or animations/custom playermodel won't work!

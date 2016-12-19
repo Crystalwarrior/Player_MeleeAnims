@@ -1,7 +1,8 @@
 //NOTE TO SELF: TSShapeConstructor has to be done BEFORE player datablock.
 datablock TSShapeConstructor(mMeleeDts) {
 	baseShape = "base/data/shapes/player/mmelee.dts";
-	sequence0 = "base/data/shapes/player/melee.dsq";
+	sequence0 = "base/data/shapes/player/default.dsq";
+	sequence1 = "base/data/shapes/player/melee.dsq";
 };
 
 datablock PlayerData(PlayerMeleeAnims : PlayerStandardArmor)
@@ -53,13 +54,13 @@ function player::fixAppearance(%pl,%cl)
 		%pl.setHeadUp(1);
 	if($hat[%cl.hat] $= "Helmet")
 	{
-		if(%cl.accent == 1)
+		if(%cl.accent == 1 && $accent[4] !$= "none")
 		{
 			%pl.unHideNode($accent[4]);
 			%pl.setNodeColor($accent[4],%cl.accentColor);
 		}
 	}
-	else if(strpos($accentsAllowed[$hat[%cl.hat]],strlwr($accent[%cl.accent])) != -1)
+	else if($accent[%cl.accent] !$= "none" && strpos($accentsAllowed[$hat[%cl.hat]],strlwr($accent[%cl.accent])) != -1)
 	{
 		%pl.unHideNode($accent[%cl.accent]);
 		%pl.setNodeColor($accent[%cl.accent],%cl.accentColor);
