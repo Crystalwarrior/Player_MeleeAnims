@@ -8,6 +8,7 @@ datablock TSShapeConstructor(mMeleeDts) {
 datablock PlayerData(PlayerMeleeAnims : PlayerStandardArmor)
 {
 	shapeFile = "base/data/shapes/player/mmelee.dts";
+	uniformCompatible = true; //Slayer uniform thing
 	canJet = 0;
 	uiName = "Melee Anims Player";
 };
